@@ -4,36 +4,16 @@
 
 This specific implementation is the **v32 STABLE MEAN** configuration, which is tuned to guarantee convergence to smooth profiles by adjusting weights to prevent common issues like "ReLU death" and "black heatmaps."
 
-## Important: Dataset Installation
-
-Due to its large file size, the HDF5 dataset required for this project is **not** included in this repository. You must download it manually.
-
-1.  **Download the dataset file** (e.g., `dataset_2_1.hdf5`) from the following link:
-
-(https://arxiv.org/abs/2410.21611)
-
-2.  **Place the file** inside the `/data` folder in the root of this project.
-
-The final directory structure should look like this:
-```
-
-Hybrid-Calo-UDE/
-├── data/
-│   └── dataset\_2\_1.hdf5
-└── ... (other project files)
-
-````
-The code will **not** run without this step.
-
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 This project is built as a standard Julia package for complete reproducibility.
 
 ### Prerequisites
 * [**Julia (v1.6 or later)**](https://julialang.org/downloads/)
 * [**Git**](https://git-scm.com/downloads)
+* The **HDF5 dataset** (e.g., `dataset_2_1.hdf5`) must be manually placed in the `/data` folder.
 
 ### 1. Installation
 First, clone the repository to your local machine:
@@ -63,7 +43,7 @@ Next, install all the required Julia packages using the project's built-in envir
 
 -----
 
-## How to Run
+## 🏃‍♂️ How to Run
 
 After installing the dataset and setting up the environment, you can run the entire training and evaluation pipeline with a single command.
 
@@ -85,7 +65,7 @@ All major hyperparameters (learning rates, weights, step counts) are configured 
 
 -----
 
-## Project Structure
+## 📂 Project Structure
 
 A brief overview of the repository layout:
 
@@ -97,7 +77,7 @@ Hybrid-Calo-UDE/
 ├── README.md           # This file
 │
 ├── data/
-│   └── (Add your dataset.hdf5 file here)
+│   └── (Your dataset file goes here)
 │
 ├── results/
 │   └── .gitignore      # Keeps this folder but ignores models/plots
