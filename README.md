@@ -6,7 +6,7 @@ This specific implementation is the **v32 STABLE MEAN** configuration, which is 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 This project is built as a standard Julia package for complete reproducibility.
 
@@ -43,7 +43,7 @@ Next, install all the required Julia packages using the project's built-in envir
 
 -----
 
-## 🏃‍♂️ How to Run
+## How to Run
 
 After installing the dataset and setting up the environment, you can run the entire training and evaluation pipeline with a single command.
 
@@ -65,7 +65,7 @@ All major hyperparameters (learning rates, weights, step counts) are configured 
 
 -----
 
-## 📂 Project Structure
+## Project Structure
 
 A brief overview of the repository layout:
 
