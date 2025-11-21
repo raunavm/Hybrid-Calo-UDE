@@ -1,3 +1,7 @@
+name = "ECalUDE"
+version = "0.1.0"
+uuid = "d2061c0f-c6c6-443c-b6fc-6eb2c7b35f9f"
+
 [deps]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 GNNLux = "e8545f4d-a905-48ac-a8c4-ca114b98986d"
