@@ -2,8 +2,6 @@
 
 **Hybrid-Calo-UDE** is a Julia (Lux) implementation of a hybrid Graph Neural Network (GNN) and 3D Convolutional Neural Network (CNN) model designed to generate smooth and robust ensemble mean profiles of Electromagnetic Calorimeter (ECAL) showers.
 
-This specific implementation is the **v32 STABLE MEAN** configuration, which is tuned to guarantee convergence to smooth profiles by adjusting weights to prevent common issues like "ReLU death" and "black heatmaps."
-
 ---
 
 ## Getting Started
