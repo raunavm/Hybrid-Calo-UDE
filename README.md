@@ -10,7 +10,7 @@ Due to its large file size, the HDF5 dataset required for this project is **not*
 
 1.  **Download the dataset file** (e.g., `dataset_2_1.hdf5`) from the following link:
 
-    [**<-- PASTE YOUR PUBLIC DOWNLOAD LINK HERE (e.g., Google Drive, Dropbox) -->**](https://your-download-link.com/data)
+(https://arxiv.org/abs/2410.21611)
 
 2.  **Place the file** inside the `/data` folder in the root of this project.
 
